@@ -29,8 +29,11 @@ $ catkin_init_workspace
 $ cd ..
 $ catkin_make
 $ sudo apt-get update
-$ cd ~/catkin_ws/src
-$ git clone https://github.com/Geekgineer/Robert-Home-Service-Robot.git .
+$ cd ~/catkin_ws/
+
+#To ensure you download everything, including any submodules:
+
+$ git clone --recursive https://github.com/Geekgineer/Robert-Home-Service-Robot.git .
 
 $ cd ~/catkin_ws/
 $ source devel/setup.bash
@@ -42,9 +45,11 @@ $ source devel/setup.bash
 
 $ sudo apt install xterm
 
+$ cd ~/catkin_ws/src/robert_scripts
+
 ```
 
-All shell scripts uses xterm with fixed geometry to launch the simulation independently.
+All shell scripts uses xterm with fixed geometry to launch the simulation and visualization.
 
 ### Ball Chaser
 
@@ -92,5 +97,7 @@ TODO: I will add demo videos and more details
 This project utilizes the following ROS packages
 
 [SLAM Gmapping](https://github.com/ros-perception/slam_gmapping)
+
 [Navigation Stack](https://github.com/ros-planning/navigation)
+
 [teleop twist keyboard](https://github.com/ros-teleop/teleop_twist_keyboard)
