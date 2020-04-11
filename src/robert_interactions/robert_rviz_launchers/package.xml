@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+
+  <name>robert_rviz_launchers</name>
+  <version>2.3.1</version>
+  <description>Launchers for visualizing robert</description>
+  <maintainer email="masdy@abb.com">amer</maintainer>
+  <license>BSD</license>
+
+  <author>amer</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>rviz</run_depend>
+
+</package>

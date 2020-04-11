@@ -1,0 +1,8 @@
+{
+    "ros.distro": "melodic",
+    "python.autoComplete.extraPaths": [
+        "/home/amer/catkin_ws_uda/devel/lib/python2.7/dist-packages",
+        "/home/amer/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ]
+}

@@ -1,0 +1,6 @@
+<!--
+  Used for visualising the robert navigating locally only with bumpers and cliff sensors. 
+ -->
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robert_rviz_launchers)/rviz/blind_nav.rviz"/>
+</launch>

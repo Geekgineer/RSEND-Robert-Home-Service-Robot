@@ -1,0 +1,20 @@
+map_type: costmap
+
+obstacle_range: 3
+raytrace_range: 3.5
+
+robot_radius: 0.2
+#footprint: [[-0.105, -0.105], [-0.105, 0.105], [0.041, 0.105], [0.041, -0.105]]
+
+transform_tolerance: 0.5
+
+inflation_radius: 0.35
+cost_scaling_factor: 3.0
+
+observation_sources: laser_scan_sensor
+
+laser_scan_sensor: {sensor_frame: hokuyo_link, data_type: LaserScan, topic: /scan, marking: true, clearing: true}
+
+
+ 
+
