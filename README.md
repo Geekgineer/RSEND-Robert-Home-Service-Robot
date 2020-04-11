@@ -17,8 +17,8 @@ This project was built as part of Udacity Robotics Softwere Engineering Nanodegr
 * Project5: Home Service Robot
   > Combined SLAM and Path Planning and Navigation algorithms into Robert a home service robot that can autonomously transport objects in your home.
 
-![img1](screenshots/robert_in_myoffice_world.png)
-![img2](screenshots/robert_navigation_to_object.png)
+![img1](src/screenshots/robert_in_myoffice_world.png)
+![img2](src/screenshots/robert_navigation_to_object.png)
 
 ## Install and Build Packages
 
@@ -93,3 +93,4 @@ This project utilizes the following ROS packages
 
 [SLAM Gmapping](https://github.com/ros-perception/slam_gmapping)
 [Navigation Stack](https://github.com/ros-planning/navigation)
+[teleop twist keyboard](https://github.com/ros-teleop/teleop_twist_keyboard)
