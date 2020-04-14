@@ -23,19 +23,19 @@ This project was built as part of Udacity Robotics Softwere Engineering Nanodegr
 ## Install and Build Packages
 
 ```
-$ mkdir -p ~/catkin_ws/src
+$ mkdir -p ~/catkin_ws
+
+#To ensure you download everything, including any submodules:
+$ git clone --recursive https://github.com/Geekgineer/Robert-Home-Service-Robot.git .
+
 $ cd ~/catkin_ws/src
 $ catkin_init_workspace
 $ cd ..
 $ catkin_make
+
 $ sudo apt-get update
 $ cd ~/catkin_ws/
 
-#To ensure you download everything, including any submodules:
-
-$ git clone --recursive https://github.com/Geekgineer/Robert-Home-Service-Robot.git .
-
-$ cd ~/catkin_ws/
 $ source devel/setup.bash
 
 $ rosdep install --from-paths src --ignore-src -r -y
@@ -49,7 +49,7 @@ $ cd ~/catkin_ws/src/robert_scripts
 
 ```
 
-All shell scripts uses xterm with fixed geometry to launch the simulation and visualization.
+All the shell scripts use xterm with fixed geometry to launch the simulation and visualization.
 
 ### Ball Chaser
 
@@ -90,7 +90,7 @@ $ ./test_slam.sh
 
 ## Results  
 
-TODO: I will add demo videos and more details
+[Demo of Pick and Place a ball around the office](https://www.youtube.com/watch?v=b6jFN3bI3RA)
 
 ## References
 
@@ -101,3 +101,11 @@ This project utilizes the following ROS packages
 [Navigation Stack](https://github.com/ros-planning/navigation)
 
 [teleop twist keyboard](https://github.com/ros-teleop/teleop_twist_keyboard)
+
+## Content of RSND
+
+![img2](imgs/Robotics%20Software%20Engineer%20-%20Udacity_page-0001.jpg)
+
+## Certificate
+
+![img3](imgs/cer.jpg)
